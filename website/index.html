@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYPASS_DPI - Свободный интернет для всех</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1384/1384060.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="BYPASS_DPI">
+                <span>BYPASS_DPI</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Возможности</a>
+                <a href="#download">Скачать</a>
+                <a href="#faq">FAQ</a>
+                <a href="https://github.com/Flowseal/BYPASS_DPI" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Свободный интернет без границ</h1>
+            <p>Простое и эффективное решение для обхода блокировок на Windows</p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn btn-primary download-direct">
+                    💾 Скачать <span class="version-number">v1.0.0</span>
+                </a>
+                <a href="https://github.com/Flowseal/BYPASS_DPI" class="btn btn-secondary" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" alt="GitHub" class="btn-icon">
+                    GitHub
+                </a>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number" id="stars">⭐</span>
+                    <span class="stat-label">Stars</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Бесплатно</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Open</span>
+                    <span class="stat-label">Source</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Почему BYPASS_DPI?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Быстрый запуск</h3>
+                    <p>Скачал, распаковал, запустил - и всё работает. Никаких сложных настроек</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Для игр</h3>
+                    <p>Специальный режим для игр и приложений с поддержкой UDP/TCP</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Гибкие стратегии</h3>
+                    <p>Множество стратегий обхода - найдется решение для любой ситуации</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Автозапуск</h3>
+                    <p>Установка в службы Windows - работает автоматически при загрузке</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Безопасность</h3>
+                    <p>Open Source проект. Весь код открыт и проверяем</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🆓</div>
+                    <h3>Полностью бесплатно</h3>
+                    <p>Без подписок, без рекламы, без ограничений</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Скачать BYPASS_DPI</h2>
+            <div class="download-card">
+                <div class="download-info">
+                    <h3>Последняя версия: <span class="version-number">1.0.0</span></h3>
+                    <p>Поддержка: Windows 7/8/10/11 (x64)</p>
+                    <ul class="download-features">
+                        <li>✅ Все популярные стратегии обхода</li>
+                        <li>✅ Автоматическая установка в службы</li>
+                        <li>✅ Диагностика и проверка обновлений</li>
+                        <li>✅ Поддержка Discord, YouTube и других сервисов</li>
+                    </ul>
+                </div>
+                <div class="download-buttons">
+                    <a href="https://github.com/Flowseal/BYPASS_DPI/releases/latest" class="btn btn-large btn-primary download-direct">
+                        💾 Скачать напрямую
+                    </a>
+                    <a href="https://github.com/Flowseal/BYPASS_DPI/releases/latest" class="btn btn-secondary" target="_blank">
+                        📦 Все релизы на GitHub
+                    </a>
+                    <p class="download-note">
+                        <span class="download-size">Размер: ~2 МБ</span> | 
+                        <span class="download-count">Формат: ZIP</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Частые вопросы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Это безопасно?</h3>
+                    <p>Да! Проект полностью открыт на GitHub. Все файлы можно проверить. Используется официальный WinDivert драйвер с цифровой подписью.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Антивирус ругается на WinDivert</h3>
+                    <p>WinDivert - легитимный инструмент для работы с сетевым трафиком. Антивирусы могут реагировать на него как на "хакерский инструмент". Добавьте в исключения.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Какую стратегию выбрать?</h3>
+                    <p>Начните с general.bat. Если не работает - пробуйте ALT, FAKE и другие варианты. Стратегии могут работать по-разному в зависимости от провайдера.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Работает ли с играми?</h3>
+                    <p>Да! Есть специальный Game Filter режим. Включите его через service.bat → Switch Game Filter.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Нужен ли VPN?</h3>
+                    <p>Нет! BYPASS_DPI работает без VPN. Это DPI bypass решение, которое обходит блокировки на уровне пакетов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>© 2024 BYPASS_DPI | MIT License</p>
+            <p>Основано на <a href="https://github.com/bol-van/zapret" target="_blank">zapret</a> by bol-van</p>
+            <div class="footer-links">
+                <a href="https://github.com/Flowseal/BYPASS_DPI" target="_blank">GitHub</a>
+                <a href="https://github.com/Flowseal/BYPASS_DPI/issues" target="_blank">Сообщить о проблеме</a>
+                <a href="https://github.com/Flowseal/BYPASS_DPI/blob/main/LICENSE.txt" target="_blank">Лицензия</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
