@@ -1,9 +1,18 @@
 <div align="center">
 
-# <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=28 /> <a href="https://github.com/Flowseal/">Flowseal</a><a href="https://github.com/Flowseal/BYPASS_DPI">/BYPASS_DPI</a> <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=28 />
+# <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=40 /> BYPASS_DPI
 
-Альтернатива https://github.com/bol-van/zapret-win-bundle  
+### 🚀 Простое решение для обхода DPI блокировок на Windows
+
+[![Website](https://img.shields.io/badge/🌐_Официальный_сайт-6366f1?style=for-the-badge)](https://j9907955-netizen.github.io/BYPASS_DPI/)
+[![Download](https://img.shields.io/badge/📥_Скачать-10b981?style=for-the-badge)](https://github.com/j9907955-netizen/BYPASS_DPI/releases/latest)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE.txt)
+
+---
+
+**Альтернатива** https://github.com/bol-van/zapret-win-bundle  
 Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
+
 </div>
 
 > [!CAUTION]
@@ -28,12 +37,24 @@
 > [!IMPORTANT]
 > Все бинарные файлы в папке [`bin`](./bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
 
+## 🌐 Официальный сайт
+
+**👉 [j9907955-netizen.github.io/BYPASS_DPI](https://j9907955-netizen.github.io/BYPASS_DPI/)**
+
+На сайте вы найдете:
+- 📥 Прямую ссылку на скачивание последней версии
+- 📖 Подробную документацию
+- ❓ Ответы на частые вопросы
+- 🎨 Красивый интерфейс с анимациями
+
+---
+
 ## ⚙️Использование
 
 1. Включите Secure DNS. В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию). В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту"
     * В **Windows 11** поддерживается включение Secure DNS прямо в настройках - [инструкция тут](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
 
-2. Загрузите архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/BYPASS_DPI/releases/latest)
+2. Загрузите архив (zip/rar) со [страницы последнего релиза](https://github.com/j9907955-netizen/BYPASS_DPI/releases/latest) или с [официального сайта](https://j9907955-netizen.github.io/BYPASS_DPI/)
 
 3. Распакуйте содержимое архива по пути, который не содержит кириллицу/спец. символы
 
@@ -87,7 +108,7 @@
 
 - Попробуйте полную переустановку (см. раздел ниже)
 
-- См. [#765](https://github.com/Flowseal/BYPASS_DPI/issues/765)
+- См. [#765](https://github.com/j9907955-netizen/BYPASS_DPI/issues/765)
 
 ### Как переустновить/обновить полностью?
 - Сохраните ресурсы/данные, которые вы сами добавляли
@@ -95,7 +116,7 @@
 - `service.bat` -> `Remove Services`
 - `service.bat` -> `Run Diagnostics` (если есть ошибки - устраните их) -> в конце Y
 - Удалите папку с BYPASS_DPI
-- Скачайте последнюю версию [со страницы релизов](https://github.com/Flowseal/BYPASS_DPI/releases) (`BYPASS_DPI-...`)
+- Скачайте последнюю версию [со страницы релизов](https://github.com/j9907955-netizen/BYPASS_DPI/releases) (`BYPASS_DPI-...`)
 - Распакуйте в новую папку в корне диска (без спец. символов и пробелов)
 - Далее пробуйте запускать различные `general` скрипты (стратегии). Проверьте доступность интернет ресурсов - если не работают, то закрывайте программу (в панели задач иконка замочка) и пробуйте другую стратегию
 - Как найдёте рабочую стратегию, можете поставить её на автозапуск: `service.bat` -> `Install Service` -> выбираете нужную
@@ -130,15 +151,15 @@ sc delete название_из_первого_шага
 
 ### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=18 /> Discord
 
-- См. [#252](https://github.com/Flowseal/BYPASS_DPI/discussions/252)
+- См. [#252](https://github.com/j9907955-netizen/BYPASS_DPI/discussions/252)
 
 ### Не работает <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=18 /> YouTube
 
-- См. [#251](https://github.com/Flowseal/BYPASS_DPI/discussions/251)
+- См. [#251](https://github.com/j9907955-netizen/BYPASS_DPI/discussions/251)
 
 ### Не нашли своей проблемы
 
-* Создайте её [тут](https://github.com/Flowseal/BYPASS_DPI/issues)
+* Создайте её [тут](https://github.com/j9907955-netizen/BYPASS_DPI/issues)
 
 ## 🗒️Добавление адресов прочих ресурсов
 
@@ -154,21 +175,21 @@ sc delete название_из_первого_шага
 
 Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
 
-<a href="https://star-history.com/#Flowseal/BYPASS_DPI&Date">
+<a href="https://star-history.com/#j9907955-netizen/BYPASS_DPI&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Flowseal/BYPASS_DPI&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Flowseal/BYPASS_DPI&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Flowseal/BYPASS_DPI&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=j9907955-netizen/BYPASS_DPI&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=j9907955-netizen/BYPASS_DPI&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=j9907955-netizen/BYPASS_DPI&type=Date" />
  </picture>
 </a>
 
 ## ⚖️Лицензирование
 
-Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/BYPASS_DPI/blob/main/LICENSE.txt)
+Проект распространяется на условиях лицензии [MIT](https://github.com/j9907955-netizen/BYPASS_DPI/blob/main/LICENSE.txt)
 
 ## 🩷Благодарность участникам проекта
 
-[![Contributors](https://contrib.rocks/image?repo=Flowseal/BYPASS_DPI)](https://github.com/Flowseal/BYPASS_DPI/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=j9907955-netizen/BYPASS_DPI)](https://github.com/j9907955-netizen/BYPASS_DPI/graphs/contributors)
 
 💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
 
